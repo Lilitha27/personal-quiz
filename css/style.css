@@ -21,3 +21,198 @@ h2{
     font-weight: bolder;
     font-size:20px;
 }
+#button{
+    color: black;
+    background-color: wheat;
+    size: 100px;
+
+/* h4{
+    font-size: 50px;
+    text-align: center;
+    color: wheat; */
+/* } */
+
+}
+.head{
+    /* background-color: rgb(204, 66, 170); */
+    height: 370px;
+    width:100%;
+    font-family:  'ZCOOL XiaoWei';
+
+}
+@media (min-width: 576px) { 
+    /* selecting all elements */
+    body{
+        background-image: url("../images/paper.jpg");
+        color: aliceblue;
+        font-family: 'Source Sans Pro', sans-serif;
+        scroll-behavior: smooth;
+        margin-left:5%;
+    }
+    h1{
+        font-size:60px;
+        font-weight: bold;
+        color:wheat;
+        text-align: center;
+        text-transform:unset;
+        padding-top:5%;
+        
+    }
+    
+    h2{
+        color: wheat;
+        text-align: left;
+        font-weight: bolder;
+        font-size:20px;
+    }
+    /* h4{
+        font-size: 50px;
+        text-align: center;
+        color: wheat; */
+    /* } */
+    #button{
+        color: black;
+        background-color: wheat;
+        size: 100px;
+    
+    }
+    .head{
+        /* background-color: rgb(204, 66, 170); */
+        height: 370px;
+        width:100%;
+        font-family:  'ZCOOL XiaoWei';
+    
+    }
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px)  { 
+    body{
+        background-image:url("../images/paper.jpg");
+        color: aliceblue;
+        font-family: 'Source Sans Pro', sans-serif;
+        scroll-behavior: smooth;
+        margin-left:5%;
+    }
+    h1{
+        font-size:100px;
+        font-weight: bold;
+        color:wheat;
+        text-align: center;
+        text-transform:unset;
+        padding-top:5%;
+        
+    }
+    
+    h2{
+        color: wheat;
+        text-align: left;
+        font-weight: bolder;
+        font-size:20px;
+    }
+    /* h4{
+        font-size: 50px;
+        text-align: center;
+        color: wheat; */
+    /* } */
+    #button{
+        color: black;
+        background-color: wheat;
+        size: 100px;
+    
+    }
+    .head{
+        /* background-color: rgb(204, 66, 170); */
+        height: 370px;
+        width:100%;
+        font-family:  'ZCOOL XiaoWei';
+    
+    }
+    }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px)  { 
+    body{
+        background-image:url("../images/paper.jpg");
+        color: aliceblue;
+        font-family: 'Source Sans Pro', sans-serif;
+        scroll-behavior: smooth;
+        margin-left:5%;
+    }
+    h1{
+        font-size:100px;
+        font-weight: bold;
+        color:wheat;
+        text-align: center;
+        text-transform:unset;
+        padding-top:5%;
+        
+    }
+    
+    h2{
+        color: wheat;
+        text-align: left;
+        font-weight: bolder;
+        font-size:20px;
+    }
+    /* h4{
+        font-size: 50px;
+        text-align: center;
+        color: wheat; */
+    /* } */
+    #button{
+        color: black;
+        background-color: wheat;
+        size: 100px;
+    
+    }
+    .head{
+        /* background-color: rgb(204, 66, 170); */
+        height: 370px;
+        width:100%;
+        font-family:  'ZCOOL XiaoWei';
+    
+    }
+    }
+/* // Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) { 
+    body{
+        background-image:url("../images/paper.jpg");
+        color: aliceblue;
+        font-family: 'Source Sans Pro', sans-serif;
+        scroll-behavior: smooth;
+        margin-left:5%;
+    }
+    h1{
+        font-size:100px;
+        font-weight: bold;
+        color:wheat;
+        text-align: center;
+        text-transform:unset;
+        padding-top:5%;
+        
+    }
+    
+    h2{
+        color: wheat;
+        text-align: left;
+        font-weight: bolder;
+        font-size:20px;
+    }
+    /* h4{
+        font-size: 50px;
+        text-align: center;
+        color: wheat; */
+    /* } */
+    #button{
+        color: black;
+        background-color: wheat;
+        size: 100px;
+    
+    }
+    .head{
+        /* background-color: rgb(204, 66, 170); */
+        height: 370px;
+        width:100%;
+        font-family:  'ZCOOL XiaoWei';
+    
+    }
+        

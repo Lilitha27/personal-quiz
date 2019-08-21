@@ -113,6 +113,108 @@ $Questions = array(
         ),
         'CorrectAnswer' => 'C'
     ),
+    11 => array(
+        'Question' => '<h2>11.How would you describe my personal wardrobe style?</h2>',
+        'Answers' => array(
+            'A' => 'Tons of color in my closet!',
+            'B' => ' An even mix of neutrals and color',
+            'C' => ' Neutral - blacks, whites, grays',
+            'D' => ' Flowy, fun, and flowery!
+            '
+        ),
+        'CorrectAnswer' => 'B'
+    ),
+    12 => array(
+        'Question' => '<h2>12.How do you think i want to impact the world ?</h2>',
+        'Answers' => array(
+            'A' => 'By bringing justice to all',
+            'B' => 'By creating an empire',
+            'C' => 'By doing good',
+            'D' => 'By leaving my mark on it'
+        ),
+        'CorrectAnswer' => 'D'
+    ),
+    13 => array(
+        'Question' => '<h2>13.Where do i want to be in 20 years?</h2>',
+        'Answers' => array(
+            'A' => 'Inventing the next breakthrough',
+            'B' => 'Starring in movies',
+            'C' => 'Making the world a better place',
+            'D' => ' Running a country'
+        ),
+        'CorrectAnswer' => 'A'
+    ),
+    14 => array(
+        'Question' => '<h2>14. What is my dream job?</h2>',
+        'Answers' => array(
+            'A' => 'Computer Engineer',
+            'B' => 'Pilot',
+            'C' => 'Musician',
+            'D' => 'Tour guide '
+        ),
+        'CorrectAnswer' => 'A'
+    ),
+    15 => array(
+        'Question' => '<h2>15.What is my favourite dessert?</h2>',
+        'Answers' => array(
+            'A' => 'Ice Cream',
+            'B' => 'Peach Pie',
+            'C' => ' Chocolate Cake',
+            'D' => 'Donut'
+        ),
+        'CorrectAnswer' => 'C'
+    ),
+    16 => array(
+        'Question' => '<h2>16.What do i do to relax?</h2>',
+        'Answers' => array(
+            'A' => 'Play video games',
+            'B' => 'Have drinks with friends',
+            'C' => 'Spend time outdoors',
+            'D' => ' Relax on the couch'
+        ),
+        'CorrectAnswer' => 'D'
+    ),
+    17 => array(
+        'Question' => '<h2>17.What is my texting style?</h2>',
+        'Answers' => array(
+            'A' => 'I just txt as quickly as pssible whtevr',
+            'B' => 'Full sentences with correct grammer',
+            'C' => 'I am an over-texter',
+            'D' => 'Emoji city'
+        ),
+        'CorrectAnswer' => 'B'
+    ),
+    18 => array(
+        'Question' => '<h2>18.How would i spend a free day ?</h2>',
+        'Answers' => array(
+            'A' => 'Shopping with friends',
+            'B' => 'Organizing my closet',
+            'C' => 'Writing poems, songs, or stories',
+            'D' => 'Planting in a garden'
+        ),
+        'CorrectAnswer' => 'A'
+    ),
+    19 => array(
+        'Question' => '<h2>19.What is my favourite form of exercise?</h2>',
+        'Answers' => array(
+            'A' => ' Walking',
+            'B' => ' Hiking/Climbing',
+            'C' => ' Jogging',
+            'D' => 'Swimming'
+        ),
+        'CorrectAnswer' => 'B'
+    ),
+    20 => array(
+        'Question' => '<h2>20.What is my star sign ?</h2>',
+        'Answers' => array(
+            'A' => 'Leo',
+            'B' => 'Scorpio',
+            'C' => 'Libra',
+            'D' => 'Cancer'
+        ),
+        'CorrectAnswer' => 'D'
+    ),
+);
 
 </body>
 </html>

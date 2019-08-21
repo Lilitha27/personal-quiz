@@ -252,6 +252,20 @@ if (isset($_POST['answers'])){
             $Label = 'question-'.$QuestionNo.'-answers-'.$Letter;
             echo '<br />';
         ?>
+          <div>
+            <input type="radio" name="answers[<?php echo $QuestionNo; ?>]" id="<?php echo $Label; ?>" value="<?php echo $Letter; ?>" />
+            <label for="<?php echo $Label; ?>"><?php echo $Letter; ?>) <?php echo $Answer; ?> </label>
+        </div>
+        <?php } ?>
+    <?php } ?>
+    <?php }
+    echo $Answers ?>
+    <input id="button" type="submit" value="Submit Quiz" />
+    
+    </form>
+ <?php
+ 
+ ?>
 
 </body>
 </html>

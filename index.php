@@ -216,5 +216,42 @@ $Questions = array(
     ),
 );
 
+if (isset($_POST['answers'])){
+    $Answers = $_POST['answers']; // Get submitted answers.
+    // Now this is fun, automated question checking! :wink:
+    foreach ($Questions as $QuestionNo => $Value){
+        // Echo the question
+        echo $Value[Question];
+        if ($Answers[$QuestionNo] != $Value['CorrectAnswer']){
+             echo '<h3>You answered: <span style="color: red;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span><br></h3>' ; // Replace style with a class
+             echo '<h3>Correct answer: <span style="color: green;">'.$Value['Answers'][$Value['CorrectAnswer']].'</span></h3>' ;
+        } else {
+            echo '<h3>Correct answer: <span style="color: green;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span><br></h3>' ; // Replace style with a class
+            echo '<h3>You are correct: <span style="color: green;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span></h3>' ; $counter++;
+        }
+        echo '<br />';
+                                if ($counter=="")
+                                {
+                                $counter='0';
+                                $results = "<h>Your score: $counter/20</h3>";
+                                }
+                                else
+                                {
+                                $results = "<h3>Your score: $counter/20</h3>";
+                                }
+            }                           echo $results;
+                                        echo "THANK YOU &#128536; !"."<br>";
+                                        
+ } else {
+ ?>
+    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" id="quiz">
+    <?php foreach ($Questions as $QuestionNo => $Value){ ?>
+        <h3><?php echo $Value['Question']; ?></h3>
+        <?php
+            foreach ($Value['Answers'] as $Letter => $Answer){
+            $Label = 'question-'.$QuestionNo.'-answers-'.$Letter;
+            echo '<br />';
+        ?>
+
 </body>
 </html>

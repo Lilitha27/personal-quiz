@@ -62,5 +62,57 @@ $Questions = array(
         'CorrectAnswer' => 'B'
     ),
 
+
+    6 => array(
+        'Question' => '<h2>6.Which would be my go-to first date?</h2>',
+        'Answers' => array(
+            'A' => 'dinner and a show',
+            'B' => 'picnic and bike ride in the park',
+            'C' => 'music festival',
+            'D' => 'drinks and dancing in the club '
+        ),
+        'CorrectAnswer' => 'A'
+    ),
+    7 => array(
+        'Question' => '<h2>7.Which words best describe me?</h2>',
+        'Answers' => array(
+            'A' => 'reliable and easy going ',
+            'B' => 'glittering and charming',
+            'C' => 'modern and stylish',
+            'D' => 'carefree and creative'
+        ),
+        'CorrectAnswer' => 'D'
+    ),
+    8 => array(
+        'Question' => '<h2>8.What is a quote that inspires me ?</h2>',
+        'Answers' => array(
+            'A' => 'Go hard or go home',
+            'B' => 'collect memories not things ',
+            'C' => 'life begins at the end of your comfort zone ',
+            'D' => 'fall in love with taking care of yourself'
+        ),
+        'CorrectAnswer' => 'B'
+    ),
+    9 => array(
+        'Question' => '<h2>9.What is my favorite kind of vacation?</h2>',
+        'Answers' => array(
+            'A' => 'road trip ',
+            'B' => 'cultural',
+            'C' => 'beach',
+            'D' => 'active'
+        ),
+        'CorrectAnswer' => 'A'
+    ),
+    10 => array(
+        'Question' => '<h2>10.What are my typical morning like?</h2>',
+        'Answers' => array(
+            'A' => 'hitting the gym and then off to work',
+            'B' => 'i typically do not rise before noon',
+            'C' => 'blasting music while i shower and get ready',
+            'D' => 'rolling out of bed and running to work '
+        ),
+        'CorrectAnswer' => 'C'
+    ),
+
 </body>
 </html>

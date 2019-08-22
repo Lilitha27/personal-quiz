@@ -236,14 +236,22 @@ if (isset($_POST['answers'])){
                                 if ($counter=="")
                                 {
                                 $counter='0';
-                                $results = "<h>Your score: $counter/20</h3>";
+                                $results = "<h4>Your score: $counter/20</h4>";
                                 }
                                 else
                                 {
-                                $results = "<h3>Your score: $counter/20</h3>";
+                                $results = "<h4>Your score: $counter/20</h4>";
                                 }
             }                           echo $results;
-                                        echo "THANK YOU &#128536; !"."<br>";
+                                        echo "<br>";
+                    if ($counter <=9){
+                        echo "<h5>Try again &#128531; </h5>"."<br>";
+                        
+                    }
+                    else{
+                        echo "<h5>Well Done &#127881; !</h5>"."<br>";
+                        
+                    }
                                         
  } else {
  ?>
@@ -262,13 +270,11 @@ if (isset($_POST['answers'])){
         <?php } ?>
     <?php } ?>
     <?php }
-    echo $Answers ?>
+     ?>
     <input id="button" type="submit" value="Submit Quiz" />
     
     </form>
- <?php
  
- ?>
 
 </body>
 </html>

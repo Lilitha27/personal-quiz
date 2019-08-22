@@ -8,7 +8,7 @@ body{
 h1{
     font-size:100px;
     font-weight: bold;
-    color:wheat;
+    color:white;
     text-align: center;
     text-transform:unset;
     padding-top:5%;
@@ -16,22 +16,28 @@ h1{
 }
 
 h2{
-    color: wheat;
+    color: white;
     text-align: left;
     font-weight: bolder;
     font-size:20px;
+    padding-top:2%;
 }
 #button{
     color: black;
-    background-color: wheat;
+    background-color: white;
     size: 100px;
 
 /* h4{
     font-size: 50px;
     text-align: center;
-    color: wheat; */
-/* } */
+    color: white;
+ }  */
 
+}
+h5{
+    font-size:50px;
+    text-align: center;
+    padding-top:0%;
 }
 .head{
     /* background-color: rgb(204, 66, 170); */
@@ -40,7 +46,7 @@ h2{
     font-family:  'ZCOOL XiaoWei';
 
 }
-@media (min-width: 576px) { 
+@media (min-width: 52px) { 
     /* selecting all elements */
     body{
         background-image: url("../images/paper.jpg");
@@ -52,7 +58,7 @@ h2{
     h1{
         font-size:60px;
         font-weight: bold;
-        color:wheat;
+        color:white;
         text-align: center;
         text-transform:unset;
         padding-top:5%;
@@ -60,159 +66,19 @@ h2{
     }
     
     h2{
-        color: wheat;
+        color: white;
         text-align: left;
         font-weight: bolder;
         font-size:20px;
     }
      h4{
-        font-size: 50px;
+        font-size: 70px;
         text-align: center;
-        color: wheat; 
+        color: white; 
      } 
     #button{
         color: black;
-        background-color: wheat;
-        size: 100px;
-    
-    }
-    .head{
-        /* background-color: rgb(204, 66, 170); */
-        height: 370px;
-        width:100%;
-        font-family:  'ZCOOL XiaoWei';
-    
-    }
-}
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px)  { 
-    body{
-        background-image:url("../images/paper.jpg");
-        color: aliceblue;
-        font-family: 'Source Sans Pro', sans-serif;
-        scroll-behavior: smooth;
-        margin-left:5%;
-    }
-    h1{
-        font-size:100px;
-        font-weight: bold;
-        color:wheat;
-        text-align: center;
-        text-transform:unset;
-        padding-top:5%;
-        
-    }
-    
-    h2{
-        color: wheat;
-        text-align: left;
-        font-weight: bolder;
-        font-size:20px;
-    }
-    h4{
-        font-size: 50px;
-        text-align: center;
-        color: wheat;
-     } 
-    #button{
-        color: black;
-        background-color: wheat;
-        size: 100px;
-    
-    }
-    .head{
-        /* background-color: rgb(204, 66, 170); */
-        height: 370px;
-        width:100%;
-        font-family:  'ZCOOL XiaoWei';
-    
-    }
-    
-}
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px)  { 
-    body{
-        background-image:url("../images/paper.jpg");
-        color: aliceblue;
-        font-family: 'Source Sans Pro', sans-serif;
-        scroll-behavior: smooth;
-        margin-left:5%;
-    }
-    h1{
-        font-size:100px;
-        font-weight: bold;
-        color:wheat;
-        text-align: center;
-        text-transform:unset;
-        padding-top:5%;
-        
-    }
-    
-    h2{
-        color: wheat;
-        text-align: left;
-        font-weight: bolder;
-        font-size:20px;
-    }
-    /* h4{
-        font-size: 50px;
-        text-align: center;
-        color: wheat; */
-    /* } */
-    #button{
-        color: black;
-        background-color: wheat;
-        size: 100px;
-    
-    }
-    h5{
-        text-align: center;
-        color: wheat;
-        margin-top:0%;
-        font-size:40px;
-        padding-top:0%;
-    }
-    .head{
-        /* background-color: rgb(204, 66, 170); */
-        height: 370px;
-        width:100%;
-        font-family:  'ZCOOL XiaoWei';
-    
-    }
-}
-/* // Extra large devices (large desktops, 1200px and up) */
- @media (min-width: 1200px) { 
-    body{
-        background-image:url("../images/paper.jpg");
-        color: aliceblue;
-        font-family: 'Source Sans Pro', sans-serif;
-        scroll-behavior: smooth;
-        margin-left:5%;
-    }
-    h1{
-        font-size:100px;
-        font-weight: bold;
-        color:wheat;
-        text-align: center;
-        text-transform:unset;
-        padding-top:5%;
-        
-    }
-    
-    h2{
-        color: wheat;
-        text-align: left;
-        font-weight: bolder;
-        font-size:20px;
-    }
-     h4{
-        font-size: 50px;
-        text-align: center;
-        color: wheat; 
-    } 
-    #button{
-        color: black;
-        background-color: wheat;
+        background-color: white;
         size: 100px;
     
     }

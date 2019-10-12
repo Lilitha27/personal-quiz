@@ -17,3 +17,6 @@ I used two different google fonts
 I used the if function for the score for every submit 
 I used the count++ variable to calculate the correct answers 
 I also used emoticons to style and attract people 
+
+To complete the quiz you have to install wamp,xamp or mamp 
+use the localhost to view the questionnaire and omplete the quiz .
